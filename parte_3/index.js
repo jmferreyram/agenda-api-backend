@@ -83,7 +83,7 @@ app.post('/notes', (request, response) =>{
     response.json(newNote)
 })
 
-const PORT = 3001
+const PORT = 3002
 app.listen(PORT, () => {
     console.log(`Server runing on port ${PORT}`)
 })
